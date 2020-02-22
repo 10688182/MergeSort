@@ -72,7 +72,7 @@ void MergeSort(int *a, int low, int high)
 int main()
 {
 	int n, i;
-	cout<<"\nEnter the number of data element to be sorted: ";
+	cout<<"\nEnter the number of data elements for sorting: ";
 	cin>>n;
  
 	int arr[n];
@@ -85,7 +85,7 @@ int main()
 	MergeSort(arr, 0, n-1);
  
 	// Printing the sorted data.
-	cout<<"\nSorted Data ";
+	cout<<"\nSorted Data is: ";
 	for (i = 0; i < n; i++)
         cout<<"->"<<arr[i];
  
